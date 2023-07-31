@@ -108,18 +108,15 @@ a {
     background: #E6F0FF;
     height: calc(100vh - 90px);
     display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
-.hero {
-    margin-top: 138px;
-}
-
-.hero .info {
+.hero-wrap .info {
     max-width: 51%;
 }
 
-.hero .subtitle {
+.hero-wrap .subtitle {
     color: #687690;
     font-weight: 500;
     font-size: 1.8rem;
@@ -127,7 +124,7 @@ a {
     letter-spacing: 0.018rem;
 }
 
-.hero .title {
+.hero-wrap .title {
     color: #000336;;
     font-weight: 700;
     font-size: 6.2rem;
@@ -135,7 +132,7 @@ a {
     margin-top: 8px;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     color: #5A6473;
     font-size: 1.8rem;
@@ -143,16 +140,16 @@ a {
     line-height: 1.77;
 }
 
-.hero .hero-cta {
+.hero-wrap .hero-cta {
     margin-top: 40px;
     min-width: 170px;
 }
 
-.hero .hero-img {
+.hero-wrap .hero-img {
     position: absolute;
     right: calc((100vw - 1110px) / 2 - 50px);
     bottom: 0;
-    height: calc(100% - 100px);
+    height: calc(100% - 20px);
 }
 
 /* ===== Clients ===== */
