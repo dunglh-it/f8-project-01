@@ -51,16 +51,19 @@ a {
 }
 
 /* ===== Header ===== */
-.header {
-    position: relative;
-    background: #E6F0FF;
-    height: 100vh;
+.fixed-header {
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+    padding-top: 26px;
+    background-color: #E6F0FF;
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -96,6 +99,14 @@ a {
 }
 
 /* ===== Hero ===== */
+.hero-wrap {
+    position: relative;
+    background: #E6F0FF;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .hero {
     margin-top: 138px;
 }
